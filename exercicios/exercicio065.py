@@ -1,8 +1,4 @@
-cont = 0
-soma = 0
-media = 0
-n = 0
-p = 0
+cont = soma = media = n = p = 0
 while p != 'N':
     n = int(input('Digite um número: '))
     cont += 1
@@ -18,3 +14,4 @@ while p != 'N':
 media = soma/cont
 print(f'Você digitou {cont} números. A média deles é {media}')
 print(f'O maior número é {maior} e o menor é {menor}!')
+ 
