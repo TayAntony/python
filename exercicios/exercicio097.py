@@ -7,4 +7,4 @@ def escreva(msg):
 
 escreva('Tayssa Antoniasse')
 escreva('GORDA')
-escreva('Estuda Python')
+escreva('Ela estuda Python')
