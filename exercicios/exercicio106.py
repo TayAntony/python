@@ -1,9 +1,11 @@
 from cores import Styles
+from time import sleep
 c = Styles()
 
 def ajuda(com):
     titulo(f'Acessando o manual do comando \'{com}\'', c.white, c.bg_blue)
     print(c.black, c.bg_white)
+    sleep(1)
     help(com)
     print(c.clear)
 
@@ -14,6 +16,7 @@ def titulo(msg, corLetra , corFundo):
     print(f'  {msg}  ')
     print(f'~' * tam)
     print(c.clear)
+    sleep(0.5)
 
 
 comando = ''
