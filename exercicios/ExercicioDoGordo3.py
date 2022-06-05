@@ -1,4 +1,4 @@
-'''criar uma calculadora usando funções'''
+#criar uma calculadora usando funções
 
 
 def calculadora():
