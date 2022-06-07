@@ -20,3 +20,5 @@ if m>= 7.0:
 else:
      print('A sua média foi ruim, estude mais! ',end="")
      print("\U0001F62C")
+
+
