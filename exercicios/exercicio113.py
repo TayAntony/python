@@ -18,4 +18,4 @@ def leiaReal(txt):
 
 i = leiaInt('Digite um número INTEIRO: ')
 r = leiaReal('Digite um número REAL: ')
-print(f'Você acabou de digitar os números {i} e {r}!')
+print(f'O valor inteiro digitado foi {i} e o real foi {r}!')
