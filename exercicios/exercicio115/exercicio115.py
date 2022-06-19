@@ -9,21 +9,18 @@ perguntas = [
     )
 ]
 
-print('~'*40)
+cabecalho('\33[1m\33[34mSISTEMA CADASTRAL    v1.0\33[m')
 respostas = inquirer.prompt(perguntas)
 
 if respostas['escolha'] == 'Adicionar novo cadastro':
     novo_cadastro()
-    while True:
-        confirmar = input('As informações estão corretas? [S/N] ').upper().strip()
-        if confirmar == 'S':
-            print('~~~~~~~~~~~~~ CADASTRO EFETUADO COM SUCESSO ~~~~~~~~~~~~~')
-            break
-        else:
-            novo_cadastro()           
+
 elif respostas['escolha'] == 'Logar como ADM':
     logar_adm()
+
 elif respostas['escolha'] == 'Listar cadastros':
     print(3)
+
 elif respostas['escolha'] == 'Sair do programa':
     sair()
+
